@@ -1,0 +1,8 @@
+{
+  "success" : <true | false>,
+  "error" : { // only if success is false
+    "extendedCode" : <HRESULT>,
+    "message" : <error message>,
+    "details" : [ <detail> ]
+  }
+}
